@@ -48,17 +48,9 @@ function draw() {
      game.end();
    }
 
-   if(player.score >= 10){
-        this.end()
-   }
+   
 
-   end(){
-    game.update(2);
-    clear();
-    fill("blue");
-    textSize(40);
-    text("Game Over", 350,300);
-  }
+  
     
 }
 
